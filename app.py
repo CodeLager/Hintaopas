@@ -18,6 +18,7 @@ PRICES = {
     "vallila": 5520,
     "kamppi": 7450,
     "eira": 10885,
+    "kruunuhaka": 7456,
 }
 
 def calc_price(sq: float, sqprice: float) -> float:
@@ -51,3 +52,4 @@ if st.button("Laske", type="primary"):
 st.divider()
 st.subheader("Käytetyt hinnat (€/m²)")
 st.write(PRICES)
+
